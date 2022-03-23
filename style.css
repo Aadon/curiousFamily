@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  background-image: linear-gradient(
+    to left,
+    rgb(212, 170, 63),
+    rgb(224, 150, 162)
+  );
+}
+
+img {
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+}
+
+#myobj {
+  color: rgb(248, 246, 246);
+  font-size: 17px;
+  margin: 10px 2px 5px 16px;
+  padding: 10px;
+  line-spacing: 0.5rem;
+}
+
+.container {
+  border: 1px solid rgb(235, 219, 219);
+  border-radius: 9px;
+  margin: 18px;
+}
+
+header {
+  color: rgb(8, 116, 74);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  float: left;
+  color: rgb(8, 116, 74);
+  padding: 15px;
+}
+
+th {
+  margin: 8px;
+  padding: 8px;
+  color: rgb(38, 39, 37);
+}
+
+table {
+  margin: 10px;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(223, 217, 217);
+  color: rgb(70, 67, 43);
+}
+
+a {
+  border: none;
+  margin: 30px 0 0 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: olive;
+  text-decoration: none;
+}
+
+#table {
+  text-align: center;
+  margin: 18px;
+  border: 1px solid rgb(247, 240, 240);
+  border-radius: 10px;
+}
+
+#exp,
+#hobs {
+  float: none;
+}
+
+form {
+  background-color: #d6cdcd;
+  border-radius: 5px;
+  margin: 10px;
+  padding-top: 8px;
+}
+
+label {
+  margin: 12px;
+  padding: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 40%;
+  height: 95px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  resize: none;
+  margin-left: 12px;
+  padding: 9px;
+}
+
+button {
+  background-color: green;
+  color: #f4f4f4;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+button#return {
+  color: #d6cdcd;
+}
+h3 {
+  color: green;
+}
+
+#main-menu {
+  background-color: beige;
+  width: 70%;
+  height: 200px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.list {
+  list-style: none;
+  text-align: center;
+}
+
+.list li {
+  margin: 15px;
+  padding: 10px;
+  color: saddlebrown;
+}
+
+ol {
+  margin-left: 15px;
+  list-style: none;
+}
+
+ol li {
+  padding: 6px;
+  color: saddlebrown;
+  background-color: beige;
+  width: 50%;
+}
+
+#hobs {
+  margin: 15px 15px 0 15px;
+}
